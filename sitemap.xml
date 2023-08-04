@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://picstrader.com/</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/how-it-works.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/trade.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/gallery.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/rate.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/faq.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/login.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/terms.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/privacy.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/cookies.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/supplier-agreement.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/file-sale.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/contact.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://picstrader.com/registration.php</loc>
+  <lastmod>2023-03-13T20:51:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+
+</urlset>

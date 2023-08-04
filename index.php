@@ -1,0 +1,11 @@
+<?php
+include_once('./inc/template/header.php');
+include_once('./inc/template/main-heroes.php');
+include_once('./inc/template/main-search.php');
+include_once('./inc/template/main-gallery.php');
+include_once('./inc/template/main-all-temes.php');
+include_once('./inc/template/main-modal-buy-image.php');
+include_once('./inc/template/trade-modal-topup.php');
+include_once('./inc/template/trade-modal-no-money.php');
+include_once('./inc/template/footer.php');
+?>
