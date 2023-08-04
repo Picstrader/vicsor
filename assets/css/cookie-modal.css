@@ -1,0 +1,77 @@
+/* The Modal (background) */
+.modal-cookie {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0px;
+    overflow: auto;
+    overflow-y: hidden;
+    padding: 0px;
+    height: 11%;
+    width: 100%;
+}
+
+.modal-cookie-container {
+    border: 1px solid #888;
+    width: 100%;
+    background: #171b24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+.modal-cookie-block {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 131.02%;
+    letter-spacing: 0.025em;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 40%;
+    align-items: center;
+    gap: 20px;
+}
+
+.modal-cookie-text b {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.modal-cookie-text p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.modal-cookie-button-cover {
+    justify-content: center;
+}
+
+.modal-cookie-button {
+    height: 40px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #007AFF;
+}
+
+@media(max-width: 768px) {
+    .modal-cookie-block {
+        width: 95%;
+    }
+    
+    .modal-cookie-block{
+        gap: 0px;
+    }
+    
+    .modal-cookie-button{
+        font-size: 12px;
+    }
+}

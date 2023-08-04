@@ -1,0 +1,88 @@
+li {
+	list-style-type: none;
+}
+
+.adm_users__list-user {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.adm_users__list-user:focus {
+	color: blueviolet;
+}
+
+.adm_users__user_info-tb {
+	border-spacing: 0px;
+}
+
+.adm_users__user_info-tb-thead {
+	border: 1px solid black;
+}
+
+.adm_users__user_info-tb-thead-tr-td {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding-right: 10px;
+}
+
+.adm_users__user_info-tb-tbody-tr-td {
+	border-bottom: 1px solid lightslategray;
+	padding-right: 10px;
+}
+
+.adm_users__span {
+	font-weight: 800;
+	font-size: 18px;
+	color: blueviolet;
+	font-style: italic;
+}
+
+.adm_users__block {
+	column-count: 5;
+}
+
+.adm__found_users {
+	column-count: 5;
+}
+
+.wrapper {
+	display: inline-block;
+	margin: 100px auto 0px auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	min-width: 20px;
+	height: 20px;
+	border-radius: 2px;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+}
+
+.c {
+	background-color: bisque;
+	border-radius: 50%
+}
+
+.previous,
+.next {
+	background-color: lightseagreen;
+	border-radius: 50%
+}
+
+.first,
+.last {
+	background-color: lightcyan;
+	border-radius: 50%
+}
+
+.not_activ {
+	background-color: lightgrey;
+	color: white;
+	border-radius: 50%;
+	cursor: default;
+}

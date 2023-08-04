@@ -1,0 +1,303 @@
+.adm_lang_phrases_header {
+    width: 100%;
+    border-bottom: 2px solid #A5B1BD;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0px rgb(105 105 105 / 25%);
+    position: fixed;
+    top: 0;
+    display: block;
+}
+
+.adm_lang_phrases_header__a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.langs {
+    display: inline-block;
+    width: 320px;
+    margin-left: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+    background-color: #EFEBFA;
+}
+
+.lang__name {
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 1px solid #D1D1D1;
+    border-radius: 3px;
+}
+
+.lang__del {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #FFB2B2;
+    font-style: italic;
+    color: yellow;
+    border-radius: 3px;
+}
+
+.lang__edit {
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #B3A5D8;
+    color: black;
+    border-radius: 3px;
+}
+
+.lang__hr {
+    width: 300px;
+}
+
+.lang_new_submit {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.phrase_new {
+    width: 50%;
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #EFEBFA;
+}
+
+.message {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-style: italic;
+    color: red;
+}
+
+.phrase_add {
+    display: block;
+    width: 95%;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #EFEBFA;
+}
+
+.phrase_add_en-name-label {
+    display: inline-block;
+    width: 30%;
+    font-weight: 800;
+}
+
+.phrase_add_en-name-inp {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    border: 1px solid #A7A4AE;
+    padding-left: 5px;
+    margin: 2px;
+    font-style: italic;
+}
+
+.phrase_add_en-value-label {
+    display: inline-block;
+    font-weight: 800;
+}
+
+.phrase_add_en-value-inp {
+    display: inline-block;
+    width: 45%;
+    height: 26px;
+    margin: 2px;
+    margin-left: 20px;
+    padding: 0px;
+    padding-left: 5px;
+    border: 1px solid #A7A4AE;
+    font-weight: 600;
+}
+
+.phrase_add_en-submit {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.adm_select_lng2show_phrs {
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: auto;
+    padding: 10px;
+    padding-top: 20px;
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+    background-color: #EFEBFA;
+}
+
+.adm_select_lng2show_phrs-form {
+    display: inline-block;
+}
+
+.adm_select_lng2show_phrs-form-sel {
+    display: block;
+    margin: 0px auto 16px auto;
+    border: 2px solid blue;
+    color: blue;
+    font-weight: 500;
+}
+
+.adm_select_lng2show_phrs-form-opt {
+    font-weight: 500;
+}
+
+.adm_select_lng2show_phrs-form-submit {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.adm_phrase_edit {
+    display: block;
+    width: 95%;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #EFEBFA;
+}
+
+.adm_phrase_edit__name {
+    display: inline-block;
+    width: 30%;
+    font-weight: 800;
+}
+
+.adm_phrase_edit__value {
+    display: inline-block;
+    font-weight: 800;
+}
+
+.adm_phrase_edit__form {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.adm_phrase_edit__form-name-inp {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    border: 1px solid #A7A4AE;
+    padding-left: 5px;
+    margin: 2px;
+    font-style: italic;
+}
+
+.adm_phrase_edit__form-value-inp {
+    display: inline-block;
+    width: 45%;
+    height: 26px;
+    margin: 2px;
+    margin-left: 20px;
+    padding: 0px;
+    padding-left: 5px;
+    border: 1px solid #A7A4AE;
+    font-weight: 600;
+}
+
+.adm_phrase_edit__form_submit-del {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px;
+    background-color: #FFB2B2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.adm_phrase_edit__form_submit-edit {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.message_ph_in_cur_ln_not_exists {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+}
+
+.ad_ln_ln_nm {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+}
+
+.hr_w_90 {
+    width: 90vw;
+}
+
+.found_f_ln_n {
+    vertical-align: text-bottom;
+    color: blue;
+    font-weight: bold;
+}
+
+.adm_f_l__find_f_by_n-form {
+    display: inline-block;
+    width: 45%;
+}
+
+.adm_f_l__find_f_by_n-form-inp {
+    width: 65%;
+    border: 1px solid #A7A4AE;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.adm_f_l__find_f_by_v-form {
+    width: 54%;
+    display: inline-block;
+}
+
+.adm_f_l__find_f_by_v-form-inp {
+    display: inline-block;
+    width: 70%;
+    height: 26px;
+    vertical-align: bottom;
+    padding: 0px;
+    padding-left: 5px;
+    border: 1px solid #A7A4AE;
+    font-weight: 600;
+}
+
+.adm_f_l__find_f_by_v-form-submit {
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.mess_found_phrases {
+    margin-left: 250px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: red;
+}

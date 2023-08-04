@@ -1,0 +1,73 @@
+.trade-error-message {
+  text-align: center;
+  background: #007AFF;
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  width: 10rem;
+  transform-style: preserve-3d;
+  transform: translate(0%, 15%);
+  left: auto;
+  right: auto;
+  bottom: auto;
+  z-index: 100;
+}
+
+.trade-error-message:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  top: -9px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #007AFF;
+}
+
+.trade-error-message-popap {
+  text-align: center;
+  background: #007AFF;
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  position: fixed;
+  width: 10rem;
+  transform-style: preserve-3d;
+  transform: translate(0%, 15%);
+  left: auto;
+  right: auto;
+  bottom: auto;
+  z-index: 100;
+}
+
+.block-message {
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 768px) {
+  .trade-error-message {
+    text-align: center;
+    background: #007AFF;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    width: 80px;
+    transform-style: preserve-3d;
+    transform: translate(0%, 15%);
+    left: auto;
+    right: auto;
+    bottom: auto;
+    z-index: 100;
+    font-size: 10px;
+  }
+
+  .trade-error-message:after {
+    margin-left: -10px;
+  }
+}

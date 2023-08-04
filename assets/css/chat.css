@@ -1,0 +1,70 @@
+.chat__companions {
+	display: inline-block;
+	width: 30%;
+	padding: 20px;
+	border: 1px solid green;
+	border-radius: 20px;
+	height: 80vh;
+	overflow-y: scroll;
+}
+
+.chat__communication {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	border: 1px solid green;
+	border-radius: 20px;
+	min-height: 80vh;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.chat__communication-msgs {
+	box-sizing: border-box;
+	width: 100%;
+	height: 60vh;
+	padding: 20px;
+	border: 2px solid green;
+	border-radius: 20px;
+	overflow-y: scroll;
+}
+
+.chat__communication-msg {
+	width: 100%;
+	height: 15vh;
+	margin-top: 20px;
+	border: 2px solid green;
+	border-radius: 20px;
+}
+
+.chat__companions-a {
+	line-height: 1.5em;
+	height: 1.5em;
+	border-radius: 5px;
+	display: block;
+	text-decoration: none;
+	background: lightgrey;
+}
+
+.chat__companions-a_chat_with {
+	line-height: 1.5em;
+	height: 1.5em;
+	border-radius: 5px;
+	display: block;
+	background: #8F74C7;
+	text-decoration: none;
+}
+
+.chat__communication-msg-he-circle {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.chat__companions-quantity {
+	display: inline-block;
+	font-weight: 800;
+	color: blue;
+}

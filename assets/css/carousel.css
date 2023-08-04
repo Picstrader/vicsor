@@ -1,0 +1,259 @@
+.rate-input-range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* page styles */
+.rate-ax-hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* carousel styles */
+.rate-carousel {
+  /* --carousel-height: 400px;
+  --carousel-width: 1000px;
+  --carousel-item-height: 150px;
+  --carousel-item-width: 150px; */
+  /*  --carousel-height: calc(100vh - 300px);*/
+  --carousel-height: 90vh;
+  --carousel-width: calc(100vw - 100px);
+  --carousel-item-height: 50%;
+  --carousel-item-width: 15%;
+
+  width: 100%;
+}
+
+@media(max-width: 768px) {
+  .rate-carousel {
+    /*    --carousel-height: calc(100vh - 170px);*/
+    --carousel-height: 80vh;
+    --carousel-width: 100vw;
+    --carousel-item-height: 50%;
+    --carousel-item-width: 50%;
+
+    width: 100%;
+  }
+}
+
+.rate-carousel-container {
+  align-items: center;
+  display: flex;
+  min-height: var(--carousel-height);
+  margin: 0 auto;
+  max-width: var(--carousel-width);
+  position: relative;
+  overflow: hidden;
+}
+
+.rate-carousel-item {
+  height: var(--carousel-item-height);
+  opacity: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+  width: var(--carousel-item-width);
+  z-index: 0;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.rate-carousel-item-1 {
+  left: 15%;
+  opacity: 0;
+}
+
+.rate-carousel-item-2,
+.rate-carousel-item-4 {
+  height: calc(var(--carousel-item-height) * 1.5);
+  opacity: 1;
+  /* width: calc(var(--carousel-item-width) * 1.5); */
+  /*  width: calc((100vh - 300px)/1.25);*/
+  width: calc(100vh - 100px);
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+
+  .rate-carousel-item-2,
+  .rate-carousel-item-4 {
+    height: calc(var(--carousel-item-height) * 1.5);
+    opacity: 0;
+    /* width: calc(var(--carousel-item-width) * 1.5); */
+    /*  width: calc((100vh - 300px)/1.25);*/
+    width: calc(100vh - 100px);
+    z-index: 1;
+  }
+}
+
+.rate-carousel-item-2 {
+  left: 30%;
+}
+
+.rate-carousel-item-3 {
+  /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); */
+  height: calc(var(--carousel-item-height) * 2);
+  opacity: 1;
+  left: 50%;
+  /* width: calc(var(--carousel-item-width) * 2); */
+  /*  width: calc((100vh - 360px)/1.25);*/
+  width: calc(100vh - 100px);
+  z-index: 2;
+}
+
+@media(max-width: 768px) {
+  .rate-carousel-item-3 {
+    /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); */
+    height: calc(var(--carousel-item-height) * 2);
+    opacity: 1;
+    left: 50%;
+    width: calc(var(--carousel-item-width) * 2);
+    /*    width: calc((100vh - 360px)/1.25);*/
+    z-index: 2;
+  }
+}
+
+.rate-carousel-item-4 {
+  left: 70%;
+}
+
+.rate-carousel-item-5 {
+  left: 85%;
+  opacity: 0;
+}
+
+.rate-carousel-controls {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 10%;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+/* carousel button styles */
+.rate-carousel-control {
+  background-color: transparent;
+  /* border: 2px solid; */
+  /* border-radius: 4px; */
+  color: #aaa;
+  cursor: pointer;
+  height: 5vh;
+  margin: 0 20px;
+  position: relative;
+  transform: scale(1.5);
+  transition: transform 0.5s ease-out;
+  width: 5vh;
+}
+
+.rate-carousel-control:hover {
+  transform: scale(1.3);
+}
+
+/* previous button */
+.rate-carousel-control-previous::after,
+.rate-carousel-control-previous::before {
+  box-sizing: border-box;
+  content: '';
+  display: block;
+  height: 8px;
+  position: absolute;
+  top: 5px
+}
+
+.rate-carousel-control-previous::before {
+  background: currentColor;
+  border-radius: 2px;
+  right: 11px;
+  width: 2px;
+}
+
+.rate-carousel-control-previous::after {
+  border-bottom: 4px solid transparent;
+  border-right: 5px solid;
+  border-top: 4px solid transparent;
+  right: 5px;
+  width: 0;
+}
+
+/* next button */
+.rate-carousel-control-next::after,
+.rate-carousel-control-next::before {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 8px;
+  position: absolute;
+  top: 5px
+}
+
+.rate-carousel-control-next::before {
+  background: currentColor;
+  border-radius: 2px;
+  left: 11px;
+  width: 2px;
+}
+
+.rate-carousel-control-next::after {
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid;
+  border-top: 4px solid transparent;
+  left: 5px;
+  width: 0;
+}
+
+/* play button */
+.rate-carousel-control-play::before {
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid;
+  border-top: 5px solid transparent;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 10px;
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  width: 0;
+}
+
+/* pause button */
+.rate-carousel-control-play.playing::before {
+  border-bottom: 0;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-top: 0;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 6px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 6px;
+}
+
+/* add button */
+.rate-carousel-control-add::after,
+.rate-carousel-control-add::before {
+  /* background: currentColor; */
+  /* border-radius: 5px; */
+  /* box-sizing: border-box; */
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 10px;
+}
+
+.rate-carousel-control-add::after {
+  height: 10px;
+  left: 8px;
+  top: 4px;
+  width: 2px;
+}

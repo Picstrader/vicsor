@@ -1,0 +1,148 @@
+.terms-version {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: 0.025em;
+    color: #fff;
+}
+
+.div-terms {
+    font-size: 15px;
+    line-height: 149.5%;
+    letter-spacing: 0.045em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.div-terms-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-terms-table table {
+    border: 1px solid;
+    width: 720px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.div-terms-table table td {
+    border: 1px solid;
+}
+
+.hiw-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    letter-spacing: 0.045em;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.main-text {
+    font-size: 20px;
+}
+
+.hiw-text-img {
+    width: 100%;
+}
+
+.hiw-text-img img {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+.hiw-text-color{
+    color: #007AFF;
+}
+
+.hiw4 {
+    content: url('../img/hiw4.png');
+}
+
+.hiw6 {
+    content: url('../img/hiw6.png');
+}
+
+.hiw8 {
+    content: url('../img/hiw8.png');
+}
+
+.hiw10 {
+    content: url('../img/hiw10.png');
+}
+
+.hiw12 {
+    content: url('../img/hiw12.png');
+}
+
+.hiw14 {
+    content: url('../img/hiw14.png');
+}
+
+.hiw16 {
+    content: url('../img/hiw16.png');
+}
+
+.hiw18 {
+    content: url('../img/hiw18.png');
+}
+
+.hiw20 {
+    content: url('../img/hiw20.png');
+}
+
+.hiw22 {
+    content: url('../img/hiw22.png');
+}
+
+.hiw24 {
+    content: url('../img/hiw24.png');
+}
+
+.hiw26 {
+    content: url('../img/hiw26.png');
+}
+
+.hiw28 {
+    content: url('../img/hiw28.png');
+}
+
+.hiw30 {
+    content: url('../img/hiw30.png');
+}
+
+.hiw32 {
+    content: url('../img/hiw32.png');
+}
+
+.hiw34 {
+    content: url('../img/hiw34.png');
+}
+
+.hiw36 {
+    content: url('../img/hiw36.png');
+}
+
+.hiw38 {
+    content: url('../img/hiw38.png');
+}
+
+.hiw40 {
+    content: url('../img/hiw40.png');
+}
+
+.hiw42 {
+    content: url('../img/hiw42.png');
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 126.5%;
+    letter-spacing: 0.045em;
+    color: #fff;
+}

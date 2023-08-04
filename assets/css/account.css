@@ -1,0 +1,15 @@
+.personal_account__nav {
+    border-right: 2px solid #E9EAEC;
+}
+
+.personal_account__picture {
+    text-align: center;
+}
+
+.personal_account__nickname {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+}

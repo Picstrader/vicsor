@@ -1,0 +1,44 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.adm__left {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 190px;
+	vertical-align: top;
+}
+
+.adm__left-a {
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.adm__left-a_hover {
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	background-color: lightgray;
+	color: darkgray;
+}
+
+.adm__left-a:hover {
+	background-color: lightgray;
+}
+
+.adm__right {
+	display: inline-block;
+	width: calc(100vw - 215px);
+	min-height: 100vh;
+	box-sizing: border-box;
+	border-left: 3px solid black;
+}

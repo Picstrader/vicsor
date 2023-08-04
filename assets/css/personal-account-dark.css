@@ -1,0 +1,1705 @@
+.personal-account-purchased-breadcrumbs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.personal_account_balance-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-account-modal-result__text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 141.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #fff;
+}
+
+.personal-account-profile-referral {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-account-profile-referral-link {
+    color: #84B3E4;
+}
+
+.personal-account-profile-referral-link:hover {
+    color: #fff;
+}
+
+.personal-account-profile-referral-description {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.personal-account-balance-modal {
+    position: absolute;
+    text-align: center;
+    top: calc(50% + 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95%;
+    max-height: 90%;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: row-reverse;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.personal-account-balance-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.personal-account-balance-result-text-cover {
+    display: flex;
+    justify-content: center;
+}
+
+.personal-account-balance-result-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 141.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+}
+
+.personal-account-email-confirm-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-account-email-confirm-notice {
+    color: red;
+}
+
+.personal-account-email-confirm-notice-success {
+    color: #007AFF;
+}
+
+.personal-account-email-confirm-button {
+    color: #007AFF !important;
+}
+
+.modal-confirm-content__congratulation {
+    margin: 15% auto;
+    padding: 35px;
+    border: 1px solid #44327D;
+    width: 754px;
+    background: #44327D;
+    box-shadow: 0px 4px 11px rgba(131, 131, 131, 0.25);
+    border-radius: 10px;
+}
+
+.modal-confirm-block-item-text {
+    padding: 20px 10px;
+}
+
+.modal-confirm-block-item-button {
+    padding: 20px 10px;
+    padding-top: 30px;
+}
+
+.modal-confirm-block-item-header {
+    padding: 20px 10px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 51px;
+}
+
+.modal-confirm-block {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 131.02%;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+
+.modal-confirm-button {
+    width: 180px;
+    height: 40px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #007AFF;
+}
+
+.modal-confirm-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pers_acc {
+    margin-top: 59px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    background: #FFFFFF;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.pers_acc__inf {
+    vertical-align: top;
+    display: inline-block;
+    width: 361px;
+    height: 733px;
+    margin: 4px 0px 0px 0px;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pers_acc__inf-general {
+    text-align: center;
+}
+
+.pers_acc__inf-general-photo {
+    display: block;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin: 0px auto;
+    background: #7E7E7E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pers_acc__inf-general-photo-add {
+    position: relative;
+    left: 78px;
+    top: -22px;
+    width: 26px;
+    height: 26px;
+    background: url("./../img/pers-acc-add.png");
+}
+
+.pers_acc__inf-general-photo-submit {
+    display: none;
+}
+
+.pers_acc__inf-general-nick_big {
+    margin: 13px auto 0px auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.52%;
+}
+
+.pers_acc__inf-general-nick_small {
+    margin: 18px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 146.52%;
+}
+
+.pers_acc__inf-detail-item {
+    height: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    margin: 0px auto 20px auto;
+    padding-left: 25px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.pers_acc__inf-detail-item:hover {
+    background: #D0DCE8;
+}
+
+.pers_acc__inf-detail-item-img_profile {
+    background-image: url("./../img/pers-acc-profile.png");
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.pers_acc__inf-detail-item-img_pass {
+    background-image: url("./../img/pers-acc-pass.png");
+    display: inline-block;
+    width: 23px;
+    height: 26px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.pers_acc__inf-detail-item-img_activity {
+    background-image: url("./../img/pers-acc-activ.png");
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.pers_acc__inf-detail-item-img_purchased {
+    background-image: url("./../img/pers-acc-activ.png");
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.pers_acc__inf-detail-item-img_balance {
+    background-image: url("./../img/pers-acc-activ.png");
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.pers_acc__inf-detail-item-text {
+    display: inline-block;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 123.02%;
+}
+
+.personal_account__content {
+    position: static;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pers_acc__profile {
+    height: 733px;
+    display: inline-block;
+    vertical-align: top;
+    width: 957px;
+    padding-left: 65px;
+    margin: 4px auto auto 4px;
+    border-color: #DDDDDD;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 16px 0px 0px;
+}
+
+.pers_acc__profile-h1 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 51px;
+    letter-spacing: 0.025em;
+    color: #004CC7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+.pers_acc__profile-h2 {
+    margin: 50px auto 0px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.02%;
+    letter-spacing: 0.025em;
+    color: #3A3A3A;
+}
+
+.pers_acc__profile-data {
+    margin: 25px auto 0px 0px;
+    display: grid;
+    justify-content: center;
+}
+
+.pers_acc__profile-data-name {
+    margin: 0px auto 0px 0px;
+}
+
+.pers_acc__profile-data-name-first_last {
+    display: inline-block;
+    width: 312px;
+    margin-right: 13px;
+}
+
+.pers_acc__profile-data-name-first_last-title {
+    margin: 0px auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #3A3A3A;
+}
+
+.pers_acc__profile-data-name-first_last-input {
+    width: 310px;
+    height: 34px;
+    margin: 4px auto 0px 0px;
+    padding-left: 20px;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.pers_acc__profile-data-other_items {
+    padding-bottom: 22px;
+}
+
+.pers_acc__profile-data-other_items-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 123.02%;
+    letter-spacing: 0.025em;
+    color: #FFF;
+    margin: 10px 0;
+}
+
+.pers_acc__profile-data-other_items-input {
+    width: 470px;
+    height: 40px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #fff;
+    background: #1E1E2B;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 2px 9px rgba(176, 0, 238, 0.25);
+    border-radius: 3px;
+}
+
+.pers_acc__profile-data-submit {
+    display: inline-block;
+    width: 158px;
+    height: 45px;
+    background: #007AFF;
+    border-radius: 5px;
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+.pers_acc__profile-data-submit:hover {
+    color: #FFFFFF;
+    background: #84B3E4;
+}
+
+.pers_acc__profile-data-submit:active {
+    background: #006BF0;
+}
+
+.personal_account_change_password__container {
+    height: 733px;
+    display: inline-block;
+    vertical-align: top;
+    width: 957px;
+    padding-left: 65px;
+    margin: 4px auto auto 4px;
+    border-radius: 0px 16px 0px 0px;
+    border-color: #DDDDDD;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.personal_account_change_password__title {
+    margin: 65px auto 0px 0px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #3A3A3A;
+}
+
+.personal_account_change_password__form {
+    margin: 25px auto 0px 0px;
+}
+
+.form-label {
+    height: 22px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 123.02%;
+    letter-spacing: 0.025em;
+}
+
+.pers_acc__ch_pas_inp {
+    width: 470px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    border: none;
+    height: 36px;
+    background-color: #1E1E2B;
+    color: #FFF;
+}
+
+.pers_acc__balance_input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #007AFF;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    background: #FFF !important;
+    color: #000 !important;
+}
+
+
+
+.pers_acc__purchased_input {
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border: 2px solid #007AFF;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    background: #FFF !important;
+    color: #000 !important;
+}
+
+.passsword-input-block {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #fff;
+    background: #1E1E2B;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 2px 9px rgba(176, 0, 238, 0.25);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.personal_account_change_password-show {
+    background: url(/inc/assets/img/hidepassdark.svg) no-repeat scroll 0px 0px;
+    width: 40px;
+    height: 20px;
+}
+
+.personal_account_change_password-hide {
+    background: url(/inc/assets/img/hidepassdark.svg) no-repeat scroll 0px 0px;
+    width: 40px;
+    height: 20px;
+    display: none;
+}
+
+.form-group_generate_password {
+    height: 16px;
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #3E42A0;
+    cursor: pointer;
+}
+
+.personal_account_change_password_success {
+    margin-top: 10px;
+    color: #007AFF;
+}
+
+.personal_account_change_password__form-submit {
+    width: 200px;
+    height: 45px;
+    background: #007AFF;
+    border-radius: 5px;
+/*    font-weight: 600;*/
+    font-size: 15px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+.personal_account_change_password__form-submit:hover {
+    background: #84B3E4;
+}
+
+.personal_account_change_password__form-submit:active {
+    background: #006BF0;
+}
+
+.personal_account__purchased_button_set_price {
+    width: 180px;
+    height: 41px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.personal_account__purchased_button_delete_image {
+    width: 180px;
+    height: 41px;
+    background: red;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+    margin-left: 10px;
+}
+
+.personal_account__purchased_button_set_price:hover {
+    background: #84B3E4;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.personal_account__purchased_button_set_price:active {
+    background: #006BF0;
+    box-shadow: inset 0px 0px 22px rgba(0, 0, 0, 0.25);
+}
+
+.personal_account__purchased_button_download {
+    width: 253px;
+    height: 40px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.personal_account__purchased_button_download:hover {
+    background: #84B3E4;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.personal_account__purchased_button_download:active {
+    background: #006BF0;
+    box-shadow: inset 0px 0px 22px rgba(0, 0, 0, 0.25);
+}
+
+.personal_account_change_password__form-Cancel {
+    width: 200px;
+    height: 45px;
+    border: 2px solid #007AFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    background-color: #FFFFFF;
+}
+
+.pers_acc_act {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin: 4px auto auto 4px;
+    border-color: #DDDDDD;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 957px;
+    border-radius: 0px 16px 0px 0px;
+    height: 733px;
+
+}
+
+.pers_acc_act__tb {
+    margin-top: 35px;
+}
+
+.pers_acc_act__tb-head-row {
+    height: 52px;
+}
+
+.pers_acc_act__tb-head-row-data {
+    border: 1px solid blueviolet;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 123.02%;
+    letter-spacing: 0.025em;
+    color: #3A3A3A;
+}
+
+.pers_acc_act__tb-head-row-data:first-child {
+    padding-left: 25px;
+}
+
+.pers_acc_act__tb-body-row {
+    height: 68px;
+    border: none;
+    border-bottom: 1px solid #B5B5B5;
+}
+
+.pers_acc_act__tb-body-row:last-child {
+    border: none;
+}
+
+.pers_acc_act__tb-body-row-data {
+    display: table-cell;
+    border: none;
+    box-sizing: border-box;
+    width: 260px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123.02%;
+    letter-spacing: 0.025em;
+    color: #3A3A3A;
+}
+
+.pers_acc_act__tb-body-row-data:first-child {
+    width: 378px;
+    padding-left: 30px;
+    padding-right: 130px;
+}
+
+.pers_acc_act__tb-body-row-data:last-child {
+    padding-left: 90px;
+}
+
+.pers_acc_act__tb-body-row-data-line {
+    display: inline-block;
+    width: 67px;
+    height: 0px;
+    margin-left: -10px;
+    border: 1px solid #FFF;
+}
+
+.button__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.form-control-avatar {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.personal_account_purchased_image__container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.personal_account_purchased_image__cover img {
+    width: 360px;
+    height: 360px;
+    object-fit: contain;
+}
+
+.personal_account_purchased_image__part {
+    text-align: center;
+    color: #fff;
+}
+
+.personal_account_buttons_action {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.personal_account_buttons_promotion {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.personal_account_purchased_image__price {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.personal_account_change_password__wrapper_form {
+    margin: 25px auto 0px 0px;
+}
+
+.inbalance {
+    display: grid;
+}
+
+.personal_account_balance_popup_cover {
+    display: flex;
+    flex-direction: column;
+}
+
+.inbalance_button {
+    width: 100%;
+    height: 40px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.inbalance_button:hover {
+    background: #84B3E4;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.inbalance_button:active {
+    background: #006BF0;
+    box-shadow: inset 0px 0px 22px rgba(0, 0, 0, 0.25);
+}
+
+.myactivity-positive-number {
+    color: #03A66D;
+}
+
+.personal_account_balance_header {
+    font-weight: bold;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.personal_account_balance_popup .inbalance_button {
+    margin-top: 20px;
+}
+
+.myactivity {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+}
+
+.myactivity-tr-thead {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #404040;
+    height: 50px;
+    top: 55px;
+    text-align: center;
+    background: #E6EDF4;
+    box-shadow: 0px 2px 4px rgb(181 181 181 / 25%);
+}
+
+.myactivity-tr-tbody {
+/*    font-weight: 400;*/
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #FFF;
+    height: 50px;
+    text-align: center;
+}
+
+.myactivity-td-tbody:nth-child(1) {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.myactivity-td-tbody:nth-child(2) {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.balance-block-scroll .myactivity-td-tbody:nth-child(3) {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.myactivity-block-scroll .myactivity-td-tbody:nth-child(3) {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.myactivity-td-tbody:nth-child(4) {
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.myactivity-th-description {
+    border-radius: 5px 0px 0px 0px;
+    text-align: left;
+    padding-left: 25px;
+    width: 33%;
+}
+
+.myactivity-th-datetime {
+    width: 33%;
+}
+
+.myactivity-th-amountusdt {
+    border-radius: 0px 5px 0px 0px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.balance-th-datetime {
+    width: 25%;
+}
+
+.balance-th-amountusdt {
+    width: 25%;
+}
+
+.balance-th-balance {
+    border-radius: 0px 5px 0px 0px;
+    width: 25%;
+}
+
+.balance-th-description {
+    background: #E6EDF4;
+    border-radius: 5px 0px 0px 0px;
+    width: 25%;
+}
+
+.personal_account_change_password__active {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal_account_balance_popup {
+    position: fixed;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    z-index: 2;
+    padding: 25px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    border: 3px solid #007AFF;
+    max-height: 600px;
+    overflow: auto;
+    min-height: 300px;
+}
+
+.myactivity-block {
+    min-height: calc(100% - 140px);
+    margin-top: 30px;
+    max-height: calc(100% - 140px);
+}
+
+.profile-block {
+    min-height: calc(100% - 80px);
+    margin-top: 30px;
+}
+
+.purchased-image-block {
+    margin-top: 46px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.balance-account-block {
+    min-height: calc(100% - 140px);
+    margin-top: 30px;
+}
+
+.profile-block-main {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-block-inner {
+    background-color: #1E1E2B;
+    border-radius: 16px;
+    filter: drop-shadow(1px 0px 4px rgba(0, 0, 0, 0.25));
+    padding: 50px 169px 50px 169px;
+    border: 3px solid #007AFF;
+}
+
+.myactivity-block-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myactivity-block-inner {
+    background-color: #1E1E2B;
+    border-radius: 16px;
+    filter: drop-shadow(1px 0px 4px rgba(0, 0, 0, 0.25));
+    padding: 50px;
+    border: 3px solid #007AFF;
+}
+
+.myactivity-block-scroll {
+    height: 55vh;
+    overflow: overlay;
+}
+
+.myactivity-block-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.myactivity-block-scroll::-webkit-scrollbar-track {
+    background: none;
+    margin-top: 50px;
+}
+
+.myactivity-block-scroll::-webkit-scrollbar-thumb {
+    background-color: #007AFF;
+    border-radius: 20px;
+}
+
+.balance-block-scroll {
+    height: 53.3vh;
+    overflow: overlay;
+    min-width: 900px;
+}
+
+.balance-block-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.balance-block-scroll::-webkit-scrollbar-track {
+    background: none;
+    margin-top: 50px;
+}
+
+.balance-block-scroll::-webkit-scrollbar-thumb {
+    background-color: #007AFF;
+    border-radius: 20px;
+}
+
+.myactivity-block-inner .more-block {
+    min-width: 0;
+}
+
+.inbalance_button-add-sub {
+    width: 150px;
+    height: 40px;
+    background: #84B3E4;
+    border: 3px solid #007AFF;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+/*    font-weight: 800;*/
+    font-size: 15px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+
+    color: #fff;
+}
+
+
+.inbalance_button-add {
+    width: 180px;
+    height: 40px;
+    background: #007AFF;
+    border-radius: 5px;
+/*    font-weight: 700;*/
+    font-size: 15px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.inbalance_button-add:hover {
+    background: #84B3E4;
+    box-shadow: 0px 3px 6px rgb(148 148 148 / 52%);
+}
+
+.inbalance_button-add:active {
+    background: #006BF0;
+    box-shadow: inset 0px 0px 22px rgba(0, 0, 0, 0.25);
+}
+
+.balance-amount {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.balance-amount-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #FFF;
+}
+
+.balance-amount-count {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #FFF;
+}
+
+.personal_account_balance-add {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.personal_account_balance-add-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.personal_account_subscription-add-mobile {
+    display: none;
+}
+
+.personal_account_subscription-add {
+    text-align: end;
+}
+
+.personal_account_balance-sub-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-amount {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.subscribe-amount-title {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+
+}
+
+.subscribe-amount-count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #FFF;
+}
+
+.date-time-mobile {
+    display: none;
+}
+
+.date-time-mobile-table {
+    display: none;
+}
+
+.purchased_images_section {
+    min-height: 85vh;
+}
+
+.purchased-noimage {
+    text-align: center;
+}
+
+.block-button-balance {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    width: 100%;
+}
+
+.personal_account_balance_span_cover {
+    width: 250px;
+}
+
+.qrwallet{
+    border: 3px solid #007AFF;
+    padding: 10px;
+    width: 200px;
+}
+
+.wallet-top-up{
+    display: flex;
+    gap: 20px;
+    border: 2px solid #007AFF;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.wallet-top-up:nth-child(1){
+    width: 60px;
+    text-align: left;
+}
+
+.top-up-input{
+    width: 100%;
+    border: 2px solid #007AFF;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    margin-top: 30px;
+}
+
+.top-up-button{
+    width: 200px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.top-up-text-block{
+    display: flex;
+    gap: 20px;
+}
+
+.top-up-text-block:nth-child(2){
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.withdrow-inputs-block{
+    display: grid;
+}
+
+.withdrow-input{
+    width: 100%;
+    border: 2px solid #007AFF;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    margin-top: 30px;
+}
+
+.withdrow-button{
+    width: 200px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.paypal_input{
+    border: 2px solid #007AFF;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    width: 80%;
+}
+
+
+
+.pers_acc__form_add_image {
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    gap: 10px;
+}
+
+.pers_acc__form_add_image label {
+    margin-bottom: 10px;
+}
+
+.pers_acc__form_add_image input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.pers_acc__form_add_image input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pers_acc__form_add_image button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pers_acc__form_add_image button:hover {
+    background-color: #333;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    .personal-account-purchased-breadcrumbs {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .subscribe-amount-title {
+        color: #FFF;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 120.52%;
+        letter-spacing: 0.025em;
+    }
+
+    .personal_account_balance-sub-block {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .personal-account-modal-result__text {
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 124.5%;
+        letter-spacing: 0.025em;
+        color: #fff;
+    }
+
+    .modal-confirm-content__congratulation {
+        width: 100%;
+    }
+
+    .myactivity-block-scroll .myactivity {
+        background: #577491;
+    }
+
+    .myactivity-block-scroll .myactivity-block {
+        min-height: 68vh;
+        max-height: 68vh;
+        margin-top: 20px;
+    }
+
+    .myactivity-block-inner {
+        padding: 0;
+        width: 0;
+        min-width: 100%;
+        background-color: #00000000;
+    }
+
+    .myactivity-block-scroll {
+        height: 68vh;
+        overflow: overlay;
+        min-width: 0;
+        padding: 0;
+        border-radius: 32px 32px 0px 0px;
+    }
+
+    .myactivity-block-scroll .myactivity-tr-thead {
+        font-size: 12px;
+        position: sticky;
+        top: 0;
+        border: none;
+        background: #577491;
+    }
+
+    .myactivity-block-scroll .myactivity-th-description {
+        border-radius: 32px 0px 0px 0px;
+        text-align: left;
+        padding: 0px 0px 0px 20px;
+        border: none;
+        color: #EAEAEA;
+        width: 70%;
+    }
+
+    .myactivity-block-scroll .myactivity-th-amountusdt {
+        border-radius: 0px 32px 0px 0px;
+        text-align: right;
+        padding: 0px 20px 0px 0px;
+        width: 110px;
+        word-break: break-word;
+        color: #EAEAEA;
+    }
+
+    .myactivity-block-scroll .myactivity-tr-tbody {
+        font-size: 12px;
+        height: 40px;
+        background-color: #1E1E2B;
+    }
+
+    .myactivity-block-scroll .myactivity-td-tbody:nth-child(1) {
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 600;
+    }
+
+    .myactivity-block-scroll .myactivity-td-tbody:nth-child(2) {
+        display: none;
+    }
+
+    .myactivity-block-scroll .myactivity-td-tbody:nth-child(3) {
+        text-align: right;
+        padding-right: 20px;
+        font-weight: 700;
+        border-bottom: 2px solid #5B5B5B;
+    }
+
+    .myactivity-block-scroll .myactivity-th-datetime {
+        display: none;
+    }
+
+    .myactivity-block-scroll .date-time-mobile {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .myactivity-block-scroll .date-time-mobile-table {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .myactivity-block-scroll .main_tbody1 {
+        background-color: #1E1E2B;
+    }
+
+    .myactivity-block-scroll .myactivity-td-tbody {
+        border-bottom: 2px solid #5B5B5B;
+    }
+
+    .balance-nomodal {
+        display: none !important;
+    }
+
+    .balance-block-scroll .myactivity {
+        background: #577491;
+    }
+
+    .balance-block-scroll .myactivity-block {
+        min-height: 68vh;
+        max-height: 68vh;
+        margin-top: 20px;
+    }
+
+    .balance-block-inner {
+        padding: 0;
+        width: 0;
+        min-width: 100%;
+        background-color: #00000000;
+    }
+
+    .balance-block-scroll {
+        height: 68vh;
+        overflow: overlay;
+        min-width: 0;
+        padding: 0;
+        border-radius: 32px 32px 0px 0px;
+    }
+
+    .balance-block-scroll .myactivity-tr-thead {
+        font-size: 12px;
+        position: sticky;
+        top: 0;
+        border: none;
+    }
+
+    .balance-block-scroll .balance-th-description {
+        border-radius: 32px 0px 0px 0px;
+        text-align: left;
+        padding: 0px 0px 0px 20px;
+        border: none;
+        width: 70%;
+    }
+
+    .balance-block-scroll .balance-th-amountusdt {
+        border-radius: 0px 32px 0px 0px;
+        text-align: right;
+        padding: 0px 20px 0px 0px;
+        width: 110px;
+        word-break: break-word;
+    }
+
+    .balance-block-scroll .myactivity-tr-tbody {
+        font-size: 12px;
+        height: 40px;
+        background-color: #1E1E2B;
+    }
+
+    .balance-block-scroll .myactivity-td-tbody:nth-child(1) {
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 600;
+    }
+
+    .balance-block-scroll .myactivity-td-tbody:nth-child(2) {
+        display: none;
+    }
+
+    .balance-block-scroll .myactivity-td-tbody:nth-child(3) {
+        text-align: right;
+        padding-right: 20px;
+        font-weight: 700;
+    }
+
+    .balance-block-scroll .myactivity-td-tbody:nth-child(4) {
+        display: none;
+    }
+
+    .balance-block-scroll .balance-th-datetime {
+        display: none;
+    }
+
+    .balance-block-scroll .balance-th-balance {
+        display: none;
+    }
+
+    .balance-block-scroll .date-time-mobile {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .balance-block-scroll .date-time-mobile-table {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .balance-nomodal {
+        display: none !important;
+    }
+
+    .inbalance_button-add {
+        width: 135px;
+    }
+
+    .inbalance_button-add-sub {
+        font-size: 15px;
+        width: 135px;
+    }
+
+    .balance-amount-title {
+        font-size: 16px;
+    }
+
+    .subscribe-amount-count {
+        font-size: 16px;
+    }
+
+    .personal_account_balance-add-block {
+        gap: 10px;
+    }
+
+    .personal_account_subscription-add-mobile {
+        display: block;
+    }
+
+    .personal_account_subscription-add {
+        display: none;
+    }
+
+    .personal-account-balance-modal {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 95%;
+        max-height: 90%;
+        justify-content: center;
+        background-color: #fff;
+        display: block;
+        flex-direction: row-reverse;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .balance-amount-title {
+        font-size: 12px;
+    }
+
+    .balance-amount-count {
+        font-size: 16px;
+    }
+
+    .block-button-balance {
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .personal_account_balance-add {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pers_acc__profile-data {
+        margin: 15px auto 0px 0px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .pers_acc__profile-data-other_items {
+        padding-bottom: 10px;
+    }
+
+    .pers_acc__profile-data-other_items-input {
+        width: 305px;
+        height: 36px;
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 146.52%;
+        letter-spacing: 0.025em;
+        color: #fff;
+    }
+
+    .pers_acc__ch_pas_inp {
+        width: 265px;
+        height: 36px;
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 146.52%;
+        letter-spacing: 0.025em;
+        border: none;
+        background-color: #1E1E2B;
+        color: #FFF;
+    }
+
+    .profile-block-inner {
+        background-color: #1E1E2B;
+        border-radius: 16px;
+        filter: drop-shadow(1px 0px 4px rgba(0, 0, 0, 0.25));
+        padding: 35px 5% 35px 5%;
+    }
+    
+    .personal_account_balance_popup{
+        width: 95%;
+    }
+    
+    .top-up-text-block{
+        display: grid;
+        justify-items: center;
+    }
+    
+    .personal_account_balance_header{
+        font-size: 30px;
+    }
+    
+    .qrwallet{
+        width: 150px;
+    }
+    
+    .top-up-text-block:nth-child(2) {
+        font-size: 14px;
+    }
+    
+    .wallet-top-up{
+        font-size: 10px;
+    }
+    
+    .top-up-input{
+        font-size: 10px;
+    }
+
+    .personal_account_buttons_action {
+        flex-direction: column;
+    }
+}

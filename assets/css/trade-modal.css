@@ -1,0 +1,852 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow-y: hidden;
+}
+
+.modal-error {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-y: hidden;
+}
+
+.modal-winner {
+    display: none;
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow-y: hidden;
+}
+
+.modal-content-custom {
+    padding: 35px;
+    width: 1150px;
+    position: absolute;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+    border-radius: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.trade_modal__foto {
+    width: 177px;
+}
+
+.trade_modal__section_foto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-inp-trade {
+    width: 270px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid #007AFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.trade_modal__sect {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+}
+
+.trade_modal__sect_profit {
+    display: flex;
+    gap: 17px;
+}
+
+.trade_modal__sect_usdt {
+    display: flex;
+    gap: 17px;
+}
+
+.trade_modal__sect_wallet {
+    text-align: center;
+}
+
+input[type="range"] {
+    display: block;
+    -webkit-appearance: none;
+    background-color:/* #bdc3c7*/black;
+    width: 270px;
+    height: 2px;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    z-index: 200;
+/*    transform: translateX(-10px);*/
+}
+
+/* input[type=range]:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    border-radius: 50%;
+    height: 4px;
+
+    box-shadow:
+        25px 0px 0 #434343,
+        50px 0px 0 #434343,
+        75px 0px 0 #434343,
+        100px 0px 0 #434343,
+        125px 0px 0 #434343;
+} */
+
+.main-form__sect-input-field-trade {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_form__time_min {
+    width: 50px;
+    text-align: end;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.main_form__time_max {
+    width: 50px;
+    text-align: start;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.trade_modal__sect-title_wallet {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    padding-top: 16px;
+    padding-bottom: 11px;
+}
+
+.trade_modal__wallet {
+    width: 500px;
+    height: 40px;
+    background: #F7F8FA;
+    border: 2px solid #E6E6E6;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trade_modal__policy {
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.trade-button__block {
+    margin-top: 27px;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+
+.button__close {
+    width: 230px;
+    height: 55px;
+    border: 2px solid #007AFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+}
+
+.button__confirm {
+    width: 230px;
+    height: 55px;
+    background: #007AFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111.02%;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button__confirm:disabled {
+    background: #007AFF50;
+}
+
+.link {
+    color: rgba(81, 110, 184, 1);
+}
+
+.trade_modal_privacy-form-label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+}
+
+.section__cong-block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.modal-content__congratulation {
+    border: 1px solid #888;
+    width: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 325px);
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content__complain {
+    border: 1px solid #888;
+    width: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 208px;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 325px);
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content__congratulation-plash {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: RGB(255, 255, 255, 0.85);
+    border-radius: 0px 0px 30px 30px;
+    height: 250px;
+    padding: 0px 20px;
+}
+
+.modal-content__error {
+    background-color: #fefefe;
+    padding: 15px;
+    border: 1px solid #888;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(131, 131, 131, 0.25);
+    border-radius: 30px;
+}
+
+.congratulation__table td {
+    border: none;
+}
+
+.congratulation__table_info {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    padding-bottom: 10px;
+}
+
+.congratulation__table_name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+}
+
+.congratulation__table_value {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    color: #03A66D;
+}
+
+.section__profit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.congratulation__table {
+    text-align: end;
+}
+
+.section__foto {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.trade_modal__error {
+    border: 3px solid red !important;
+}
+
+.trade_gallery__selected {
+    border: 4px solid rgb(13, 126, 255);
+    filter: none;
+}
+
+.section__foto-src {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 177.4px;
+    height: 174px;
+    border-radius: 30px;
+}
+
+.trade_modal__hashtag {
+    width: 218px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    background: #007AFF;
+    color: #FFFFFF;
+}
+
+.trade_modal__sect_wallet {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trade_modal__sect_wallet div {
+    width: 100%;
+}
+
+.trade_modal__section_foto_inner {
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 177.4px;
+    height: 174px;
+    margin: 0 auto;
+    border: 3px solid #007AFF;
+}
+
+
+.hesh__seacrh-block-datalist {
+    display: flex;
+    justify-content: center;
+}
+
+#trade_modal__popular_hashtags_filters {
+    position: absolute;
+    width: 380px;
+    display: block;
+    margin-top: 1px;
+    z-index: 2;
+}
+
+#trade_modal__popular_hashtags_filters option {
+    color: #fff;
+    padding: 0.3em 1em;
+    background-color: #007AFF;
+    cursor: pointer;
+}
+
+#trade_modal__popular_hashtags_filters option:hover {
+    color: #fff;
+    background-color: #84B3E4;
+    outline: 0 none;
+}
+
+#trade_modal__popular_hashtags_filters option:focus {
+    color: #fff;
+    background-color: #007AFF;
+    outline: 0 none;
+}
+
+.trade_modal__popular_hashtags {
+    position: absolute;
+    width: 218px;
+    display: block;
+    z-index: 2;
+}
+
+.trade_modal__popular_hashtags option {
+    color: #fff;
+    padding: 0.3em 1em;
+    background-color: #007AFF;
+    cursor: pointer;
+}
+
+.trade_modal__popular_hashtags option:hover {
+    color: #fff;
+    background-color: #84B3E4;
+    outline: 0 none;
+}
+
+.trade_modal__popular_hashtags option:focus {
+    color: #fff;
+    background-color: #007AFF;
+    outline: 0 none;
+}
+
+.close-sets {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.active-sets__filter-sets {
+    border-radius: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px solid #007AFF;
+}
+
+.section-foto-mobile {
+    display: none;
+}
+
+.modal-congratulation-finish {
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.congratulation-block {
+    background-image: url('/inc/assets/img/congratulation.png');
+    border: 1px solid #888;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.congratulation-title {
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 131.02%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.congratulation-block-found {
+    position: absolute;
+    top: 415px;
+    left: 200px;
+}
+
+.congratulation-found {
+    background-color: #fff;
+    width: 270px;
+    border-radius: 13px 0px 0px 13px;
+    height: 173px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.congratulation__third {
+    text-align: center;
+}
+
+.congratulation__third .share-button-block-trade {
+    gap: 10px;
+    min-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.congratulation__first {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 131.02%;
+    letter-spacing: 0.025em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.congratulation__second {
+    font-size: 26px;
+    line-height: 123.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #007AFF;
+    padding: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.winner-popap-profit {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 123.52%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #00B94A;
+}
+
+.close-congratulation {
+    position: absolute;
+    right: 0;
+}
+
+.share-button-block-trade {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-width: 350px;
+    padding-bottom: 100px;
+}
+
+.share-button-block-trade button {
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.share-button-block-trade button:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    background-size: 25px;
+}
+
+.slider-steps {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 250px;
+    z-index: -1;
+}
+
+.slider-steps .step {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.slider-steps .step-label {
+    position: absolute;
+    top: 12px;
+    font-size: 10px;
+    transform: translateX(-50%);
+}
+
+@media(max-width: 768px) {
+    .trade_modal__section_foto_inner {
+        border-radius: 15px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 105px;
+        height: 113px;
+        margin: 0 auto;
+        border: 5px;
+    }
+
+    .main_form__sect-title-modal {
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .trade_modal__sect {
+        display: flex;
+        gap: 50px;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 146.52%;
+        letter-spacing: 0.025em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trade_modal__sect_profit {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .trade_modal__sect_usdt {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .button__close {
+        width: 140px;
+        height: 40px;
+        border: 2px solid #007AFF;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 111.02%;
+        text-align: center;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        background-color: #FFFFFF;
+    }
+
+    .button__confirm {
+        width: 140px;
+        height: 40px;
+        background: #007AFF;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 111.02%;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .modal-content-custom {
+        padding: 25px;
+        width: fit-content;
+        position: absolute;
+        background-color: #fefefe;
+        border: none;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+        border-radius: 17px;
+    }
+
+    .close-sets {
+        display: block;
+        padding-bottom: 0;
+        position: absolute;
+        right: 30px;
+    }
+
+    .main_form__sect-mobile {
+        padding-bottom: 15px;
+    }
+
+    .create-set-label {
+        width: 100%;
+    }
+
+    .active-sets__filter-sets {
+        border-radius: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .modal-inp-trade {
+        width: 100%;
+        height: 40px;
+        text-align: left;
+        border: 1px solid #D8D8D8;
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+
+    .section__cong {
+        display: block;
+    }
+
+    table#trade-sets__table_my_sets {
+        width: 100%;
+    }
+
+    td.congratulation__table_name {
+        width: 60%;
+    }
+
+    .section-foto-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .section__foto {
+        display: none;
+    }
+
+    .modal-content__congratulation {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 15px;
+        border: 1px solid #888;
+        width: 95vw;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+        border-radius: 10px;
+        top: 0;
+        left: 2.5vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .modal-content__complain {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 15px;
+        border: 1px solid #888;
+        width: 95vw;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 11px rgb(131 131 131 / 25%);
+        border-radius: 10px;
+        top: 0;
+        left: 2.5vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mobile-finish-trade {
+        font-weight: 700;
+    }
+
+    .section__profit {
+        margin-top: 10px;
+    }
+
+    .modal-content__congratulation-plash {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: RGB(255, 255, 255, 0.85);
+        border-radius: 0px 0px 10px 10px;
+        height: 55%;
+        padding: 0px 20px;
+    }
+
+    .section__cong-block {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .congratulation__second {
+        font-size: 17px;
+        line-height: 123.52%;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #007AFF;
+        padding: 20px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        filter: drop-shadow(0px 0px 2px black);
+    }
+
+/*    .modal-content__congratulation {
+        width: 90vw;
+    }*/
+
+    .modal-content__complain {
+        width: 95vw;
+    }
+
+    .trade_gallery__selected {
+        border: 2px solid rgb(13, 126, 255);
+        filter: none;
+    }
+
+    .trade_gallery__selected {
+        border: 2px solid rgb(13, 126, 255);
+        filter: none;
+    }
+    .congratulation-block{
+        width: 95%;
+    }
+}

@@ -1,0 +1,68 @@
+.how-it-works-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.3vw;
+    line-height: 146.52%;
+    letter-spacing: 0.025em;
+    padding-bottom: 90px;
+}
+.how_it_works_steps {
+	margin-top: 100px;
+}
+
+.how-it-wprks-block1{
+    display: flex;
+    gap: 20px;
+}
+
+.how-it-wprks-block2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.how-it-works-single{
+    background-image: url('/inc/assets/img/ellipse.png');
+    background-repeat: no-repeat;
+    background-size: 26vw;
+    display: flex;
+    gap: 30px;
+    width: 33%;
+}
+
+.how-it-works-single-line2{
+    background-image: url('/inc/assets/img/ellipse.png');
+    background-repeat: no-repeat;
+    background-size: 26vw;
+    display: flex;
+    gap: 30px;
+    width: 40%;
+}
+
+.how-it-works-image{
+    width: 10vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.how-it-works-text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.how_it_works_steps__step-right-title {
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 162.52%;
+    color: #404040;
+}
+.how_it_works_steps__step-right-description {
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 162.52%;
+    color: #404040;
+}

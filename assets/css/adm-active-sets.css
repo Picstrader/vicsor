@@ -1,0 +1,16 @@
+.adm_act_sets__h1 {
+	text-align: center;
+}
+.adm_act_sets {
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	word-spacing: 5px;
+}
+.adm_act_sets__row {
+	display: inline-block;
+	margin: 0px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid lightgray;
+	line-height: 1.5;
+}
